@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome to KETEERS</title>
+</head>
+<body style="margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #FFE4C4; color: #222;">
+
+  <!-- Hero Section -->
+  <div style="display: flex; align-items: center; justify-content: center; padding: 80px 20px; max-width: 1200px; margin: auto; gap: 40px; flex-wrap: wrap; text-align: left;">
+    <div style="width: 250px; height: 250px; border-radius: 50%; overflow: hidden; box-shadow: 0 0 20px rgba(0,0,0,0.1);">
+      <img src="adlina.jpeg" alt="Adlina Najwa" style="width: 100%; height: 100%; object-fit: cover;">
+    </div>
+    <div style="max-width: 500px;">
+      <h1 style="font-size: 48px; margin: 0 0 10px 0;">Hello !</h1>
+      <p style="font-size: 16px; line-height: 1.6; margin-bottom: 30px;">
+        A Bit About Me<br>
+        Hello ! I'm Nur Adlina Najwa binti Hamdan, a dedicated librarian passionate about connecting people to information and promoting lifelong learning. With experience in library management, digital literacy, and community engagement, I strive to create inclusive, knowledge-rich spaces. Explore my work or connect. Thank you for visiting !
+
+      </p>
+      <div style="display: flex; gap: 15px; margin-top: 20px; flex-wrap: wrap;">
+        <a href="#about" style="display: flex; justify-content: center; align-items: center; border-radius: 50%; color: white; font-weight: bold; text-decoration: none; width: 100px; height: 100px; font-size: 13px; background-color: #f4a100; text-align: center; text-transform: uppercase;">ABOUT</a>
+        <a href="#CURRICULUMVITAE" style="display: flex; justify-content: center; align-items: center; border-radius: 50%; color: white; font-weight: bold; text-decoration: none; width: 100px; height: 100px; font-size: 13px; background-color: #f4a100; text-align: center; text-transform: uppercase;">CV</a>
+        <a href="#COCURRICULAR" style="display: flex; justify-content: center; align-items: center; border-radius: 50%; color: white; font-weight: bold; text-decoration: none; width: 100px; height: 100px; font-size: 11px; background-color: #f4a100; text-align: center; text-transform: uppercase;">CURRICULAR</a>
+        <a href="#ACHIEVEMENTS" style="display: flex; justify-content: center; align-items: center; border-radius: 50%; color: white; font-weight: bold; text-decoration: none; width: 100px; height: 100px; font-size: 10px; background-color: #f4a100; text-align: center; text-transform: uppercase;">ACHIEVEMENTS</a>
+        <a href="#PROJECTS" style="display: flex; justify-content: center; align-items: center; border-radius: 50%; color: white; font-weight: bold; text-decoration: none; width: 100px; height: 100px; font-size: 13px; background-color: #f4a100; text-align: center; text-transform: uppercase;">PROJECTS</a>
+        <a href="#CONTACT" style="display: flex; justify-content: center; align-items: center; border-radius: 50%; color: white; font-weight: bold; text-decoration: none; width: 100px; height: 100px; font-size: 13px; background-color: #f4a100; text-align: center; text-transform: uppercase;">CONTACT</a>
+      </div>
+    </div>
+  </div>
+
+  <!DOCTYPE html>
+<html>
+<head>
+  <title>About Me</title>
+</head>
+<body>
+
+  <!-- About Section -->
+<table id="about" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#DEB887">
+  <tr>
+    <td>
+      <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
+
+        <!-- Section Title -->
+        <tr>
+          <td height="180" align="center" valign="middle" colspan="2">
+            <h2 style="color:#292929; font-size:36px; margin: 0;">About Me</h2>
+            <hr width="70" color="#292929">
+          </td>
+        </tr>
+
+        <!-- UiTM Logo -->
+        <tr>
+          <td colspan="2" align="center">
+            <img src="UITM.png" alt="UiTM Logo" style="height: 80px; margin-bottom: 10px;"><br>
+          </td>
+        </tr>
+
+        <!-- Profile Picture and Basic Info -->
+        <tr>
+          <td width="30%" align="center">
+            <img src="najwa.jpg" alt="Profile Picture" style="border-radius: 100%; width: 180px; height: 180px;">
+          </td>
+          <td width="70%" style="font-size: 16px; color: #000;">
+            <p><strong>NUR ADLINA NAJWA BINTI HAMDAN</strong></p>
+            <p>Student ID: 2022698596</p>
+            <p>Group: N5CDIM244EKA</p>
+            <p>Course Code: IMS456</p>
+            <p>Course Name: Advanced Web Design and Content Management</p>
+            <p>Program Code: CDIM244</p>
+            <p>Faculty: FACULTY OF INFORMATION SCIENCE</p>
+            <p>Submission Date: 26 May 2025</p>
+            <p>Published URL: <a href="#" style="color: blue;">(Insert URL)</a></p>
+
+            <!-- More Info Button -->
+            <button onclick="toggleInfo()" style="margin-top: 10px; padding: 8px 16px; background-color: #292929; color: white; border: none; border-radius: 5px; cursor: pointer;">
+              More Info
+            </button>
+          </td>
+        </tr>
+
+        <!-- Hidden Info Section -->
+        <tr id="moreInfo" style="display: none;">
+          <td colspan="2" width="100%" style="color:#000000; font-size:16px;">
+            <h3>PERSONAL INFORMATION</h3>
+            <p>Full Name: NUR ADLINA NAJWA BINTI HAMDAN</p>
+            <p>Date of Birth: 29 JULY 2002</p>
+            <p>Marital Status: SINGLE</p>
+            <p>Nationality: MALAYSIAN</p>
+            <p>Languages Spoken: MALAY, ENGLISH</p>
+            <p>Hobbies/Interests: COLLECTING STAMP & READING NOVEL</p>
+            <p>Address: PORT DICKSON, NEGERI SEMBILAN</p>
+
+            <h3>PROFESSIONAL INFORMATION</h3>
+            <p>Course: BACHELOR OF INFORMATION SCIENCE (Hons) LIBRARY MANAGEMENT</p>
+            <p>University: UNIVERSITI TEKNOLOGI MARA (UiTM) CAWANGAN NEGERI SEMBILAN KAMPUS REMBAU</p>
+            <p>Years of Study: 3 1/2 years (7 semesters)</p>
+            <p>Current CGPA: 3.15</p>
+            <p>Skills: Canva, Microsoft Office, Video Editing, Project Management</p>
+            <p>Email: adlinanajwa13@gmail.com</p>
+          </td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+
+<!-- JavaScript to toggle visibility -->
+<script>
+  function toggleInfo() {
+    var infoRow = document.getElementById("moreInfo");
+    if (infoRow.style.display === "none") {
+      infoRow.style.display = "table-row";
+    } else {
+      infoRow.style.display = "none";
+    }
+  }
+</script>
+
+
+
+  <!-- Curriculum Vitae -->
+  <table id="CURRICULUMVITAE" width="100%" cellpadding="0" cellspacing="0" bgcolor="#FFE4C4">
+    <tr><td>
+      <table width="85%" align="center" cellpadding="15">
+        <tr>
+          <td height="180" colspan="3" align="center">
+            <h2 style="color:#292929; font-size:36px;">CURRICULUM VITAE</h2>
+            <hr width="70" color="#292929">
+          </td>
+        </tr>
+        <tr>
+          <td><img src="RESUME.jpg" alt="Resume" width="100%"></td>
+          <td><img src="KARISMA.jpg" alt="Karisma" width="100%"></td>
+          <td><img src="ilead.jpg" alt="iLead" width="100%"></td>
+        </tr>
+      </table>
+    </td></tr>
+  </table>
+
+  <!-- Co-Curricular -->
+  <table id="COCURRICULAR" width="100%" cellpadding="0" cellspacing="0" bgcolor="#DEB887">
+    <tr><td>
+      <table width="85%" align="center" cellpadding="15">
+        <tr>
+          <td height="180" colspan="3" align="center">
+            <h2 style="color:#292929; font-size:36px;">CO-CURRICULAR</h2>
+            <hr width="70" color="#292929">
+          </td>
+        </tr>
+        <tr>
+          <td width="33%">
+            <img src="komander.jpg" width="100%">
+            <h3 align="center">KOMANDER KESATRIA</h3>
+            <p>I joined Komander Kesatria since semester 2. Activities include physical training, volunteering, and event management.</p>
+          </td>
+          <td width="33%">
+            <img src="IPMM.jpeg" width="100%">
+            <h3 align="center">IPMM</h3>
+            <p>Active in IPMM since semester 5. We conducted Islamic activities like usrah and iftar service.</p>
+          </td>
+          <td width="33%">
+            <img src="imco.jpeg" width="100%">
+            <h3 align="center">IMCO</h3>
+            <p>Joined IMCO from semester 1. This is a compulsory club for all students under College of Computing, Informatics and Mathematics.</p>
+          </td>
+        </tr>
+      </table>
+    </td></tr>
+  </table>
+
+  <!-- Achievements & Awards -->
+  <table id="ACHIEVEMENTS" width="100%" cellpadding="0" cellspacing="0" bgcolor="#FFE4C4">
+    <tr><td>
+      <table width="85%" align="center" cellpadding="15">
+        <tr>
+          <td height="180" colspan="2" align="center">
+            <h2 style="color:#292929; font-size:36px;">ACHIEVEMENTS & AWARDS</h2>
+            <hr width="70" color="#292929">
+          </td>
+        </tr>
+        <tr>
+          <td width="66%" valign="top">
+            <ul style="line-height: 1.8;">
+              <li>FEB 2025: Commissioned as Leftenan Muda Kesatria (Siri 20/2025)</li>
+              <li>JAN 2025: Emcee for “Kawan Buku Kita”</li>
+              <li>DEC 2024: Author of “Koleksi Cerpen: Cereka Rakyat Terdahulu”</li>
+              <li>DEC 2024: Security Bureau in Ghombau Runderfull</li>
+              <li>MAR 2024: Volunteer in 'Karnival Sukan Mahasiswa'</li>
+              <li>AUG 2023: Food Bureau for 'Pertandingan Percussion Se-Malaysia 2023'</li>
+            </ul>
+          </td>
+          <td><img src="EMCEE.jpeg" alt="Emcee" width="100%"></td>
+        </tr>
+      </table>
+    </td></tr>
+  </table>
+
+  <!-- Projects -->
+  <table id="PROJECTS" width="100%" cellpadding="0" cellspacing="0" bgcolor="#DEB887">
+    <tr><td>
+      <table width="85%" align="center" cellpadding="15">
+        <tr>
+          <td height="180" colspan="3" align="center">
+            <h2 style="color:#D2691E; font-size:36px;">PROJECTS</h2>
+            <hr width="70" color="#D2691E">
+          </td>
+        </tr>
+        <tr>
+          <td width="33%">
+            <img src="library.jpeg" width="100%">
+            <h3 align="center">COMMUNITY LIBRARY OUTREACH</h3>
+            <p>Program under Public Relations course, held at Melaka Prison Museum. Role: External Relations Bureau.</p>
+          </td>
+          <td width="33%">
+            <img src="click.jpg" width="100%">
+            <h3 align="center">CLICK WISE ACT RIGHT</h3>
+            <p>Legal & Ethics course project. Held at UiTM Rembau. Role: Technical Bureau for PA system.</p>
+          </td>
+          <td width="33%">
+            <img src="bacaan.jpeg" width="100%">
+            <h3 align="center">KAWAN BUKU KITA</h3>
+            <p>Children’s Librarianship course project. Held at SK Bukit Tampoi. Role: External Relations Bureau.</p>
+          </td>
+        </tr>
+      </table>
+    </td></tr>
+  </table>
+
+  <!-- Contact -->
+  <table id="CONTACT" width="100%" cellpadding="0" cellspacing="0" bgcolor="#FFE4C4">
+    <tr><td>
+      <table width="85%" align="center" cellpadding="15">
+        <tr>
+          <td height="180" colspan="2" align="center">
+            <h2 style="color:#292929; font-size:36px;">CONTACT</h2>
+            <hr width="70" color="#292929">
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align: center; font-size: 16px;">
+            <p><b>Mobile:</b> 013-972 7473</p>
+            <p><b>Email:</b> adlinanajwa13@gmail.com</p>
+            <p><b>Address:</b> Lot 2766, Kampung Pachitan Chuah, 71960 Port Dickson, Negeri Sembilan</p>
+          </td>
+        </tr>
+      </table>
+    </td></tr>
+  </table>
+
+ <!--Footer-->
+    <table id="footer" border="1" width="100%" cellpadding="0" cellspacing="0" bgcolor="#DEB887">
+        <tr>
+            <td>
+                <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
+                            
+                        </td>
+                        <td rowspan="2">
+
+                           <font face="arial" color="#000000" size="3" align="center">
+                                <span class="fa fa-arrow-circle-up" aria-hidden="true"></span>
+                             <a href="#footer">
+                                <font face="arial" color="#000000" size="3" align="center" valign="center">
+                                    @2025 adlinanajwa
+                                </font>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            &nbsp;
+                        </td>
+                    </tr>
+                </table>
+            </td>
+
+        </tr>
+
+
+    </table>
+    <!--Footer-->
+
+
+</body>
+</html>
